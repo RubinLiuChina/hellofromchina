@@ -1,0 +1,73 @@
+# Start Form Designer File
+aObjectsList = [
+	[ :name = "Window" , :id = 1 , :classname = "formdesigner_qwidget" , :data = [
+		 :x = -61 , : y = 3  , 
+		 :width =  1129 , :height = 717 , 
+		 :title =  "Hello" , 
+		 :backcolor =  "" , 
+		 :windowflags =  "" , 
+		 :mainlayout =  "" ,
+		 :WindowIcon =  "" , 
+		 :Menubar =  ""  ,
+		 :IndexType =  0  
+
+		]
+	],
+	[ :name = "Image1" , :id = 2 , :classname = "formdesigner_qimage" , :data = [
+		 :x = 8 , : y = 162  , 
+		 :width =  861 , :height = 501 , 
+		 :textcolor =  "black" , 
+		 :backcolor =  "" , 
+		 :font =  "Arial" , 
+		 :parent =  "win"  ,
+		 :imagefile =  "china.jpg"
+		]
+	],
+	[ :name = "Label1" , :id = 3 , :classname = "formdesigner_qlabel" , :data = [
+		 :x = 307 , : y = 5  , 
+		 :width =  842 , :height = 74 , 
+		 :textcolor =  "black" , 
+		 :backcolor =  "" , 
+		 :font =  "MS Shell Dlg 2,36,-1,5,50,0,0,0,0,0" , 
+		 :parent =  "win"  ,
+		 :text =  "Hello, from China!",
+		 :textalign =  0
+		]
+	],
+	[ :name = "Label2" , :id = 4 , :classname = "formdesigner_qlabel" , :data = [
+		 :x = 79 , : y = 69  , 
+		 :width =  973 , :height = 85 , 
+		 :textcolor =  "black" , 
+		 :backcolor =  "" , 
+		 :font =  "MS Shell Dlg 2,24,-1,5,50,0,0,0,0,0" , 
+		 :parent =  "win"  ,
+		 :text =  "最近好吗？(zuì jìn hào mǎ) “How are you these days?”",
+		 :textalign =  0
+		]
+	],
+	[ :name = "Button1" , :id = 5 , :classname = "formdesigner_qpushbutton" , :data = [
+		 :x = 887 , : y = 163  , 
+		 :width =  219 , :height = 41 , 
+		 :textcolor =  "black" , 
+		 :backcolor =  "" , 
+		 :font =  "MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" , 
+		 :parent =  "win"  ,
+		 :text =  "Hello",
+		 :BtnImage =  "",
+		 :setClickEvent =  "hello"
+		]
+	],
+	[ :name = "Button5" , :id = 6 , :classname = "formdesigner_qpushbutton" , :data = [
+		 :x = 887 , : y = 213  , 
+		 :width =  219 , :height = 41 , 
+		 :textcolor =  "black" , 
+		 :backcolor =  "" , 
+		 :font =  "MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" , 
+		 :parent =  "win"  ,
+		 :text =  "Close",
+		 :BtnImage =  "",
+		 :setClickEvent =  "close"
+		]
+	]
+]
+# End Form Designer File
